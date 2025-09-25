@@ -120,12 +120,6 @@
       "<rootDir>/src/jest/mock.ts"
     ]
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint-staged"
-    }
-  },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
@@ -218,11 +212,11 @@
     "lib": "lib"
   },
   "gitHead": "5bbeacc403ba97622703699132c55d8359344004",
-  "homepage": "https://github.com/GeekyAnts/NativeBase#readme",
+  "homepage": "https://github.com/mariusz-bednarek/NativeBase#readme",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GeekyAnts/NativeBase.git"
+    "url": "git+https://github.com/mariusz-bednarek/NativeBase.git"
   },
   "collective": {
     "type": "opencollective",
